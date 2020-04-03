@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://LiuMiaoo.github.io/favicon.ico?v=1585902473016">
+<link rel="shortcut icon" href="https://LiuMiaoo.github.io/favicon.ico?v=1585902600303">
 <link rel="stylesheet" href="https://LiuMiaoo.github.io/styles/main.css">
 
 
@@ -18,12 +18,11 @@
 
 
 
-    <meta name="description" content="'''
-#include&lt;stdio.h&gt;
+    <meta name="description" content="#include&lt;stdio.h&gt;
 int main()
 {   int a[9]= {93,85,77,68,59,43,94,75,98},b[6]= {0},i;
-for(i=0; i&lt;9; i++)
-if(..." />
+    for(i=0; i&lt;9; i++)
+   ..." />
     <meta name="keywords" content="" />
   </head>
   <body>
@@ -33,7 +32,7 @@ if(..." />
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://LiuMiaoo.github.io">
-        <img src="https://LiuMiaoo.github.io/images/avatar.png?v=1585902473016" class="site-logo">
+        <img src="https://LiuMiaoo.github.io/images/avatar.png?v=1585902600303" class="site-logo">
         <h1 class="site-title">LiuMiaoo&#39;s Blog</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -99,20 +98,19 @@ if(..." />
             <div class="post-date">2020-04-03</div>
             
             <div class="post-content" v-pre>
-              <p>'''<br>
-#include&lt;stdio.h&gt;<br>
-int main()<br>
-{   int a[9]= {93,85,77,68,59,43,94,75,98},b[6]= {0},i;<br>
-for(i=0; i&lt;9; i++)<br>
-if(a[i]&lt;60)<br>
-b[5]++;<br>
-else<br>
-b[(a[i]-60)/10]++;<br>
-for(i=0; i&lt;6; i++)<br>
-printf(&quot;%d&quot;,b[i]);<br>
-return 0;<br>
-}<br>
-'''</p>
+              <pre><code>#include&lt;stdio.h&gt;
+int main()
+{   int a[9]= {93,85,77,68,59,43,94,75,98},b[6]= {0},i;
+    for(i=0; i&lt;9; i++)
+        if(a[i]&lt;60)
+            b[5]++;
+        else
+            b[(a[i]-60)/10]++;
+    for(i=0; i&lt;6; i++)
+        printf(&quot;%d&quot;,b[i]);
+    return 0;
+}
+</code></pre>
 
             </div>
             
